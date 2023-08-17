@@ -1,0 +1,64 @@
+.card2-container {
+    @apply w-[350px] h-[272px] bg-white rounded-[10px] p-5;
+    
+    .status-indicator {
+      @apply py-2 flex flex-row items-center;
+  
+      .status-icon {
+        @apply w-2 h-2 bg-orange-300 rounded-full mr-2;
+      }
+  
+      .status-text {
+        @apply text-slate-500 text-base font-normal;
+      }
+    }
+  
+    .card2-content {
+      @apply py-2 w-[286px] h-[76px] flex-col justify-center items-start gap-1 inline-flex;
+  
+      .card2-title {
+        @apply text-slate-600 text-lg font-bold;
+      }
+  
+      .card2-description {
+        @apply w-[286px] text-slate-500 text-base font-normal;
+      }
+    }
+  
+    .feature-btn {
+      @apply py-2;
+  
+      .btn {
+        @apply bg-violet-50 text-indigo-600 font-bold py-1 px-3 rounded-xl m-1;
+      }
+    }
+  
+    .interaction-section {
+      @apply py-2 flex flex-row justify-between;
+  
+      .upvote-container {
+        @apply w-[69px] h-10 bg-violet-50 rounded-[10px] flex flex-row justify-center items-center;
+  
+        .upvote-icon {
+          @apply w-4 h-4;
+        }
+  
+        .upvote-count {
+          @apply text-center text-slate-600 text-[13px] font-bold pl-1;
+        }
+      }
+  
+      .cloud-container {
+        @apply flex flex-row justify-center items-center;
+  
+        .cloud-icon {
+          @apply w-4 h-4;
+        }
+  
+        .cloud-count {
+          @apply w-[18px] text-center text-slate-600 text-base font-bold;
+        }
+      }
+    }
+  }
+  

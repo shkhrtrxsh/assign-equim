@@ -1,0 +1,16 @@
+.suggestion-active-container {
+    @apply flex flex-row bg-slate-50;
+  
+    .sidebar-section {
+      @apply w-1/3;
+    }
+  
+    .content-section {
+      @apply p-4;
+    }
+  
+    .card-section {
+      @apply py-2;
+    }
+  }
+  
